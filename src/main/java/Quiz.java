@@ -73,4 +73,10 @@ class Quiz{
         }
     }
 
+    public void go() {
+        // Задаём вопросы и получаем на них ответы
+        for (Question question : this.questions) {
+            question.ask();
+        }
+    }
 }

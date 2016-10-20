@@ -30,10 +30,7 @@ public class Main {
         quiz.addQuestion(question1);
         quiz.addQuestion(question2);
 
-        // Задаём вопросы и получаем на них ответы
-        for (Question question : quiz.getQuestions()) {
-            question.ask();
-        }
+        quiz.go();
 
         // Выводим результаты викторины
         quiz.results();

@@ -105,7 +105,7 @@ class Question {
             System.out.println(formattedAnswer);
         }
 
-        readAnswer();
+        this.readAnswer();
     }
 
     /**
